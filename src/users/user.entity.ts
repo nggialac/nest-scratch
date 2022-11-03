@@ -6,7 +6,6 @@ import {
   AfterUpdate,
   AfterRemove,
 } from 'typeorm';
-
 @Entity()
 export class User {
   @PrimaryGeneratedColumn()
